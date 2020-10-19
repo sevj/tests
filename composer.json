@@ -1,0 +1,21 @@
+{
+    "name": "jordan/tests",
+    "authors": [
+        {
+            "name": "Sevj",
+            "email": "sevjeh@sevjeh.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "atoum/atoum": "^3.4",
+        "phpunit/phpunit": "^9.4",
+        "behat/behat": "^3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Tests\\" : "tests/"
+        }
+    }
+}
