@@ -1,0 +1,32 @@
+{
+  "name": "testjs",
+  "version": "1.0.0",
+  "description": "## Framework PHP",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sevj/tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sevj/tests/issues"
+  },
+  "homepage": "https://github.com/sevj/tests#readme",
+  "devDependencies": {
+    "jest": "^26.6.1"
+  },
+  "dependencies": {
+    "cross-fetch": "^3.0.6",
+    "es6-promise": "^4.2.8",
+    "isomorphic-fetch": "^3.0.0",
+    "next-absolute-url": "^1.2.2",
+    "node-fetch": "^2.6.1"
+  }
+}
